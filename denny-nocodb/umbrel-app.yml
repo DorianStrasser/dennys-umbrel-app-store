@@ -4,7 +4,7 @@ name: NocoDB
 tagline: A seamless no-code platform for database management
 icon: https://i.imgur.com/4iBJN2p.png
 category: files & productivity
-version: "0.257.2"
+version: "0.265.0"
 port: 8096
 description: >-
   NocoDB is an open-source platform that converts databases into smart, collaborative spreadsheets. It enables users to create no-code applications on top of databases like MySQL, PostgreSQL, SQLite, and even Airtable-like interfaces on existing data structures. 
@@ -41,10 +41,17 @@ gallery:
   - https://i.imgur.com/Ci2mPvl.png
   - https://i.imgur.com/Xg0JgJD.png
 releaseNotes: >-
-  NocoDB 0.257.2 is a bug fix release that addresses various issues, including encryption key configuration failures, conditional field alias display, and .doc format support. It introduces new features, like pinning datasheets as favorites and setting the default date to today. 
+  MCP Server – Talk to your database through AI
+  No more endless clicks or filters. With MCP Server, your NocoDB workspace connects directly to AI-powered tools like Claude, Cursor, and Windsurf. Just ask in plain language, and your database answers back.
   
+  What’s Changed?
   
-  The release also includes updates for AWS IAM Role support, improved file size limits, and several GUI and API enhancements.
+  💬 Conversational queries – Ask questions like “Show me all customers who haven’t paid in 30 days” and get instant results.
+  📊 Instant insights & analysis – Pull reports, trends, and summaries without setting up filters or views.
+  ⚡ Bulk operations – Run updates across many records in one go—no manual UI work.
+  🧹 Smart cleanup – Quickly find duplicates and inconsistencies with a single request.
+  🖥️ Seamless desktop integration – Works with Claude Desktop, Cursor, and Windsurf (desktop only).
+  This is just the beginning—MCP opens the door for even deeper AI + database workflows coming soon.
 dependencies:
 path: ""
 defaultUsername: ""
